@@ -27,6 +27,7 @@ input {
     height: 88%;
     display: flex;
     justify-content: right;
+    margin-bottom: 1%;
 }
 
 .slides {
@@ -41,21 +42,22 @@ input {
 }
 
 .slider-nav {
+    width: 50%;
     display: flex;
+    margin: 0 auto;
     align-items: center;
-    margin: 4% 30%;
 }
 
 .slider-notes {
     flex-grow: 1;
-    height: 4vh;
+    height: 1.3rem;
     color: #fff;
     overflow: hidden;
 }
 
 .slider-note {
     transition: all .5s ease;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .slider-pagination {
