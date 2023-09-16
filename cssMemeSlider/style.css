@@ -43,12 +43,11 @@ input {
 .slider-nav {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 4% 20%;
+    margin: 4% 30%;
 }
 
 .slider-notes {
-    width: 70%;
+    flex-grow: 1;
     height: 4vh;
     color: #fff;
     overflow: hidden;
@@ -56,6 +55,7 @@ input {
 
 .slider-note {
     transition: all .5s ease;
+    font-size: 1.2rem;
 }
 
 .slider-pagination {
@@ -65,13 +65,13 @@ input {
 }
 
 .slider-btn {
-    width: 3.5vh;
-    height: 3.5vh;
+    width: 2.0vh;
+    height: 2.0vh;
     border-radius: 50%;
     background-color: #008cff;
     cursor: pointer;
     transition: all .5s ease;
-    margin: 1vh;
+    margin: 0.5vh;
 }
 
 .slider-btn:hover {
@@ -83,10 +83,10 @@ input {
 #radio2:checked ~ .slider-nav .slider-pagination .two,
 #radio3:checked ~ .slider-nav .slider-pagination .three,
 #radio4:checked ~ .slider-nav .slider-pagination .four {
-    width: 3vh;
-    height: 3vh;
+    width: 1.5vh;
+    height: 1.5vh;
     background-color: #535353;
-    border: 0.5vh solid #008cff;
+    border: 0.25vh solid #008cff;
     cursor: pointer;
 }
 
