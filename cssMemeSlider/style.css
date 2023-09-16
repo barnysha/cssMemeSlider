@@ -12,11 +12,12 @@ input {
 }
 
 .slider {
-    width: 300px;
-    height: 355px;
+    width: 60%;
     overflow: hidden;
     margin: 0 auto;
+    padding: 4% 0;
     border: 5px solid #fff;
+    border-radius: 5%;
 }
 
 .slider-line {
@@ -32,7 +33,15 @@ input {
 }
 .slides p {
     color: #fff;
-    width: 50%;
+    width: 20%;
+    margin-left: 26%;
+    margin-top: 1%;
+}
+
+.slides img {
+    border-radius: 5%;
+    display: block;
+    margin: auto;
 }
 
 .slider-pagination {
@@ -40,6 +49,7 @@ input {
     gap: 5px;
     cursor: pointer;
     justify-content: end;
+    margin-right: 26%;
 }
 
 .slider-btn {
