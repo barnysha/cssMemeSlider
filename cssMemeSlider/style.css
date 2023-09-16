@@ -11,7 +11,6 @@ input {
    display: none;
 }
 
-
 .slider {
     width: 300px;
     height: 355px;
@@ -31,23 +30,16 @@ input {
     width: 25%;
     transition: all .3s ease;
 }
-
-.slider-navigation {
-    height: 5%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.slider-notes {
-    color:#fff;
-    overflow: hidden;
+.slides p {
+    color: #fff;
+    width: 50%;
 }
 
 .slider-pagination {
     display: flex;
     gap: 5px;
     cursor: pointer;
+    justify-content: end;
 }
 
 .slider-btn {
@@ -55,10 +47,8 @@ input {
     height: 10px;
     border-radius: 50%;
     background-color: rgb(0, 140, 255);
-    transition: all .5 ease;
     cursor: pointer;
 }
-
 
 .slider-btn:hover {
     background-color: white;
@@ -85,3 +75,4 @@ input {
 #radio4:checked ~ .s4 {
      transform: translateX(-300%);
   }
+
