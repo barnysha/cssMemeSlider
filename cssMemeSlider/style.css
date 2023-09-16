@@ -31,7 +31,7 @@ input {
 
 .slides {
     width: 25%;
-    transition: all .3s ease;
+    transition: all .5s ease;
 }
 
 .slides img {
@@ -54,6 +54,10 @@ input {
     overflow: hidden;
 }
 
+.slider-note {
+    transition: all .5s ease;
+}
+
 .slider-pagination {
     display: flex;
     cursor: pointer;
@@ -66,7 +70,7 @@ input {
     border-radius: 50%;
     background-color: #008cff;
     cursor: pointer;
-    transition: all .3s ease;
+    transition: all .5s ease;
     margin: 1vh;
 }
 
