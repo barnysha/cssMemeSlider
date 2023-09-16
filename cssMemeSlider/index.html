@@ -4,37 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>My slider</title>
 </head>
 <body>
-    <div class="wrapper">
-            <input type="radio" class="slider-slide" name="one">
-            <input type="radio" class="slider-slide" name="two">
-            <input type="radio" class="slider-slide" name="three">
-            <input type="radio" class="slider-slide" name="four">
-            <input type="radio" class="slider-slide" name="five">
+    <div class="slider">
+        <div class="slider-line">
+            <input type="radio" class="slider-check" name="one" id="slide-one" checked>
+            <input type="radio" class="slider-check" name="two" id="slide-two">
+            <input type="radio" class="slider-check" name="three" id="slide-three">
+            <input type="radio" class="slider-check" name="four" id="slide-four">
 
-            <div class="slider">
-                <div class="slider slide-one"></div>
-                <div class="slider slide-two"></div>
-                <div class="slider slide-three"></div>
-                <div class="slider slide-four"></div>
-                <div class="slider slide-five"></div>
-            </div>
+            <div class="slides slide-one"><img src="img/buttons.jpg" alt="buttons"></div>
+            <div class="slides slide-two"><img src="img/compil.png" alt="compil"></div>
+            <div class="slides slide-three"><img src="img/howmatch.jpg" alt="howmatch"></div>
+            <div class="slides slide-four"><img src="img/if.png" alt="ifthen"></div>
+            
+        </div>
+        <div class="slider-navigation">
             <div class="slider-notes">
-                <div name="one"><p>What buttons??</p></div>
-                <div name="two"> <p>Oh, compil...</p> </div>
-                <div name="three"> <p>How match?!!</p> </div>
-                <div name="four"> <p>If... Then...</p> </div>
-                <div name="five"> <p>Wo ist Bag?</p> </div>
+                <div class="slider-note"> <p>What buttons??</p></div>
+                <div class="slider-note"> <p>Oh, compil...</p> </div>
+                <div class="slider-note"> <p>How match?!!</p> </div>
+                <div class="slider-note"> <p>If... Then...</p> </div>
             </div>
-            <div class="slider-pagonation">
-                <label for="one"></label>
-                <label for="two"></label>
-                <label for="three"></label>
-                <label for="four"></label>
-                <label for="five"></label>
+            <div class="slider-pagination">
+                <label class="slider-btn" for="slide-one"></label>
+                <label class="slider-btn" for="slide-two"></label>
+                <label class="slider-btn" for="slide-three"></label>
+                <label class="slider-btn" for="slide-four"></label>
             </div>
+        </div>
     </div>
 </body>
 </html>
