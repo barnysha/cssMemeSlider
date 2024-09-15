@@ -11,15 +11,8 @@ body {
 .slider {
     width: 100vw;
     height: 80vh;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    position: absolute;
-    left: 50%;
-    top: 50%;
-
-    gap: 10px;
 }
 
 input[name='r'] {
@@ -30,9 +23,9 @@ input[name='r'] {
 .slider__pagination {
     display: flex;
     gap: 10px;
-    margin-top: -65px;
-    margin-left: 425px;
-    z-index: 5;
+    position: absolute;
+    bottom: 22px;
+    right: 135px;
 }
 .bar {
     width: 40px;
@@ -52,6 +45,10 @@ input[name='r'] {
     width: 1000px;
     height: 800px;
     padding-top: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     overflow: hidden;
     display: flex;
     border: solid 2px #fff;
@@ -128,6 +125,16 @@ span {
 }
 
 
+@media (max-width: 768px) {
+}
+
+@media (max-width: 560px) {
+    
+}
+
+@media (max-width: 320px) {
+    
+}
 
 
 
