@@ -11,7 +11,7 @@ body {
 
 .slider {
     width: 100vw;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,10 +23,6 @@ body {
     width: 100rem;
     height: 80rem;
     padding-top: 2rem;
-    /* position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); */
     overflow: hidden;
     display: flex;
     flex-direction: column;
